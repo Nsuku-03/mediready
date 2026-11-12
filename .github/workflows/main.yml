@@ -1,0 +1,17 @@
+
+name: MediReady Notification Backend
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm workflow is running
+        run: echo "MediReady scheduled workflow is running successfully."
