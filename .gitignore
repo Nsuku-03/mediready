@@ -52,3 +52,10 @@ app.*.map.json
 *service-account*.json
 *serviceAccount*.json
 /android/app/google-services.json
+
+# Android generated build files
+/android/build/
+# Firebase Functions dependencies
+/functions/node_modules/
+/functions/lib/
+/functions/.runtimeconfig.json

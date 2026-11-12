@@ -1,6 +1,7 @@
 {
   "projects": {
-    "firebase use": "mediready-799ab"
+    "firebase use": "mediready-799ab",
+    "default": "mediready-799ab"
   },
   "targets": {},
   "etags": {}
